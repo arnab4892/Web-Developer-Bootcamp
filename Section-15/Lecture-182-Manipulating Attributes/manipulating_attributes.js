@@ -11,3 +11,10 @@ link.setAttribute("href", "https://www.bing.com");
 // To chage the image source
 var image = document.querySelector("img");
 image.setAttribute("src", "apple-logo.jpg");
+
+
+
+for (let index = 0; index < array.length; index++) {
+    const element = array[index];
+    
+}
