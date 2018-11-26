@@ -8,9 +8,17 @@
     <link rel="stylesheet" type="text/css" href="colorGame.css">
 </head>
 <body>
-    <h1>THE GREAT <span id="colorDisplay">RGB</span> GUESSING GAME</h1>
-    <div>
+    <h1 id="heading">THE GREAT 
+        <br>
+        <span id="colorDisplay">RGB</span>
+        <br>
+         GUESSING GAME
+    </h1>
+    <div id="stripe">
+        <button id="reset">New Colors</button>
         <span id="message"></span>
+        <button class="mode">Easy</button>
+        <button class="mode selected">Hard</button>
     </div>
     <div id="container">
         <div class="square"></div>
